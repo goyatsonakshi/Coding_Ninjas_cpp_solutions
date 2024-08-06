@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     int S, E, W;
-    float temp = 5/9;
+    float temp = 5/9; 
     float res;
     cout << "Enter the values of S, E and W" << endl;
     cin >> S >> E >> W;
