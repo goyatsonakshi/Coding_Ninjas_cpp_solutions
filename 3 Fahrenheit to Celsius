@@ -10,7 +10,7 @@ int main() {
     cin >> S >> E >> W;
 
     while (S<=E) {
-        res = ((S - 32)*5)/9;
+        res = ((S - 32)*5/9); // or we can do 5.0/9.0 which will provide more accurate values
         cout << S << " " << res << endl;
         S = S + W;
 
